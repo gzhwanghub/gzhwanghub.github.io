@@ -96,19 +96,19 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/grayson_gzhwang
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?hl=zh-CN&user=BDTVFBYAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/gzhwanghub
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: www.linkedin.com/in/guozhengwang
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Guozheng Wang is pursuing Ph.D. at Shanghai University. His research interests include distributed robotics, optimization algorithm and reinforcement learning.
+Guozheng Wang is pursuing doctoral at Shanghai University. His research interests include distributed machine learning, optimization algorithm and reinforcement learning. In the past three years, he has published 3 journal papers as the first author.
 {style="text-align: justify;"}
