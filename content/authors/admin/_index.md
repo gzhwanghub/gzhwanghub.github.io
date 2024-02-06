@@ -62,7 +62,7 @@ skills:
         icon: chart-line
         icon_pack: fas
       - name: C++
-        description: ''C++
+        description: ''
         percent: 40
         icon: database
         icon_pack: fas
