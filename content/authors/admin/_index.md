@@ -25,13 +25,13 @@ organizations:
     url: https://www.shu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, optimization algorithm.
+bio: My research interests include distributed machine learning, optimization algorithm, reinforcement learning.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Robotics
-  - Optimization
+  - Distributed Machine Learning
+  - Reinforcement Learning
+  - Optimization Algorithm
 
 # Education to show in About widget
 education:
