@@ -50,6 +50,17 @@ sections:
       username: admin
     design:
       columns: '1'
+ - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     content:
       title: Recent Publications
@@ -76,7 +87,7 @@ sections:
       phone: +86 13120579257
       #appointment_url: 'https://calendly.com'
       address:
-        street: Shangda Road
+        street: No. 99 Shangda Road
         city: Shanghai
         #region: 
         postcode: '200044'
