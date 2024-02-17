@@ -50,7 +50,6 @@ sections:
       username: admin
     design:
       columns: '1'
-<!--
   - block: experience
     content:
       title: Experience
@@ -281,5 +280,4 @@ sections:
           captcha: false
     design:
       columns: '2'
--->
 ---
