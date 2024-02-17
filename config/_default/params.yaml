@@ -76,8 +76,8 @@ features:
   avatar:
     gravatar: false
     shape: circle
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 15
+    imageHeight: 15
   comment:
     provider: ''
     disqus:
