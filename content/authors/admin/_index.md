@@ -93,7 +93,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'gzh.wang@outlook.com'
+    link: "mailto:gzh.wang@outlook.com"
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/grayson_gzhwang
@@ -108,7 +108,7 @@ social:
     link: https://github.com/gzhwanghub
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/guozhengwang
+    link: https://www.linkedin.com/in/guozhengwang
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
