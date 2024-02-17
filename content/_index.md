@@ -50,7 +50,7 @@ sections:
       username: admin
     design:
       columns: '1'
-       - block: collection
+  - block: collection
     content:
       title: Recent Publications
       text: |-
