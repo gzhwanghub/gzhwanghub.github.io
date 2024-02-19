@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Communication-efficient ADMM-based distributed algorithms for sparse training.pdf'
+url_pdf: 'content/publication/2D-TGSA-ADMM/Communication-efficient ADMM-based distributed algorithms for sparse training.pdf'
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''
