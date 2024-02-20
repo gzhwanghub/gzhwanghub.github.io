@@ -1,14 +1,15 @@
 ---
-title: "PSRA-HGADMM: A Communication Efficient Distributed ADMM Algorithm"
+title: "Gr-admm: A communication efficient algorithm based on admm"
 authors:
-- Yongwen Qiu 
-- Yongmei Lei 
+- Xin Huang
 - Guozheng Wang
-date: "2023-08-07"
+- Yongmei Lei
+
+date: "2021-09-30"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-08-07"
+publishDate: "2021-09-30"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,10 +17,10 @@ publishDate: "2023-08-07"
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: "52nd International Conference on Parallel Processing"
-publication_short: "ICPP"
+publication: " 2021 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)"
+publication_short: "ISPA"
 
-abstract: Among distributed machine learning algorithms, the global consensus alternating direction method of multipliers (ADMM) has attracted much attention because it can effectively solve large-scale optimization problems. However, the high communication cost slows its convergence and limits scalability. To solve the problem, we propose a hierarchical grouping ADMM algorithm (PSRA-HGADMM) with a novel Ring-Allreduce communication model in this paper. Firstly, we optimize the parameter exchange of the ADMM algorithm and implement the global consensus ADMM algorithm in the decentralized architecture. Secondly, to improve the communication efficiency of the distributed system, we propose a novel Ring-Allreduce communication model (PSR-Allreduce) based on the idea of parameter server architecture. Finally, a Worker-Leader-Group generator (WLG) framework is designed to solve the problem of inconsistency of cluster nodes. This framework combines hierarchical parameter aggregation and adopts the grouping strategy to improve the scalability of the distributed system. Experiments show that PSRA-HGADMM has better convergence performance and better scalability than ADMMLib and AD-ADMM. Compared with ADMMLib, the overall communication cost of PSRA-HGADMM is reduced by 32%.
+abstract: In recent work, the decentralized algorithm has received more attention. In the centralized network, the worker nodes need to communicate with the central nodes, which results in the growth of communication traffic with the network expansion. Based on the purpose of reducing the communication costs in the distributed system, we proposed a decentralized algorithm based on ADMM - Grouping Ring All-Reduce ADMM (GR-ADMM) in this paper. First, GR-ADMM adopts decentralized architecture to avoid the problem of communication bottleneck in the central network. Second, to ensure the scalability of the distributed system, GR-ADMM introduces the Ring All-Reduce to the ADMM. Ring All-Reduce architecture has the advantage of its constant communication overhead. However, its performance is bounded by the stragglers (i.e., slow nodes). Third, GR-ADMM adopts the grouping strategy to alleviate the problem of stragglers. Experiments show that our algorithm has better convergence performance than QSGD and GADMM, especially in massive clusters. Compared with GADMM's, the overall communication cost of GR-ADMM is reduced by 72%.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -31,7 +32,7 @@ featured: false
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3605573.3605610'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/9644902'
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''

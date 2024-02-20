@@ -1,14 +1,15 @@
 ---
-title: "PSRA-HGADMM: A Communication Efficient Distributed ADMM Algorithm"
+title: "Distributed ADMM Based on Sparse Computation and Allreduce Communication"
 authors:
-- Yongwen Qiu 
-- Yongmei Lei 
+- Zeyu Zhang
+- Yongmei Lei
+- Dongxia Wang
 - Guozheng Wang
-date: "2023-08-07"
+date: "2023-03-23"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-08-07"
+publishDate: "2023-03-23"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,10 +17,10 @@ publishDate: "2023-08-07"
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: "52nd International Conference on Parallel Processing"
-publication_short: "ICPP"
+publication: " 2021 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)"
+publication_short: "ISPA"
 
-abstract: Among distributed machine learning algorithms, the global consensus alternating direction method of multipliers (ADMM) has attracted much attention because it can effectively solve large-scale optimization problems. However, the high communication cost slows its convergence and limits scalability. To solve the problem, we propose a hierarchical grouping ADMM algorithm (PSRA-HGADMM) with a novel Ring-Allreduce communication model in this paper. Firstly, we optimize the parameter exchange of the ADMM algorithm and implement the global consensus ADMM algorithm in the decentralized architecture. Secondly, to improve the communication efficiency of the distributed system, we propose a novel Ring-Allreduce communication model (PSR-Allreduce) based on the idea of parameter server architecture. Finally, a Worker-Leader-Group generator (WLG) framework is designed to solve the problem of inconsistency of cluster nodes. This framework combines hierarchical parameter aggregation and adopts the grouping strategy to improve the scalability of the distributed system. Experiments show that PSRA-HGADMM has better convergence performance and better scalability than ADMMLib and AD-ADMM. Compared with ADMMLib, the overall communication cost of PSRA-HGADMM is reduced by 32%.
+abstract: The distributed alternating direction method of mul-tipliers (ADMM) is an effective algorithm to solve large-scale op-timization problems. However, there are still massive computation and communication cost in distributed ADMM when processing high-dimensional data. To solve this problem, we propose a distributed ADMM with sparse computation and Allreduce communication (SCAC-ADMM) which can process high-dimensional data effectively. In the algorithm, each node optimizes a sub-model of the target model in parallel. Then, the target model is obtained by aggregating all sub-models. The features in the sub-model are named associated features. In SCAC-ADMM, we first design a selecting method of associated features to determine the composition of each sub-model. This method can limit the dimension of the sub-model by setting appropriate parameters, so as to limit the computation cost. Secondly, to reduce the communication traffic caused by transmitting high-dimensional parameters, we propose a novel Allreduce communication model which can only aggregate associated parameters in sub-models. Experiments on high-dimensional datasets show that SCAC-ADMM has less computation cost and higher communication efficiency than traditional distributed ADMM. When solving large-scale logistic regression problem, SCAC-ADMM can reduce the system time by 73% compared with traditional distributed ADMM.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -31,7 +32,7 @@ featured: false
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3605573.3605610'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10070687'
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''

@@ -5,11 +5,11 @@ authors:
 - Yongmei Lei
 - Dongxia Wang
 - Guozheng Wang
-date: "2021-09"
+date: "2021-09-30"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-09"
+publishDate: "2021-09-30"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
