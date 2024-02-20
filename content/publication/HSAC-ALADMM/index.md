@@ -32,9 +32,11 @@ tags:
 - Source Themes
 featured: false
 
+# Custom links (uncomment lines below)
 # links:
-# - name: ""
-#   url: ""
+# - name: Custom Link
+#   url: http://example.org
+
 url_pdf: ''
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
