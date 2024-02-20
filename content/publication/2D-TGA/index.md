@@ -47,7 +47,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://link.springer.com/article/10.1007/s41019-022-00202-7'
+# url_pdf: 'https://link.springer.com/article/10.1007/s41019-022-00202-7'
+url_pdf: ''
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''
