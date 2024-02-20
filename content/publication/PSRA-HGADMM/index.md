@@ -31,7 +31,7 @@ featured: false
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3605573.3605610'
+url_pdf: ''
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''
