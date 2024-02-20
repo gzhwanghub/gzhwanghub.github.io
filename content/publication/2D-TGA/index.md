@@ -26,7 +26,7 @@ publishDate: '2023-01-02'
 # Enter a publication type from the CSL standard.
 
 publication_types: ["article-journal"]
-#['paper-conference']
+# ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Data Science and Engineering*
@@ -47,7 +47,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://link.springer.com/article/10.1007/s41019-022-00202-7'
 url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''
