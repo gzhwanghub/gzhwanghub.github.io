@@ -61,10 +61,10 @@ skills:
         percent: 70
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Linux
         description: ''
         percent: 60
-        icon: chart-line
+        icon: linux
         icon_pack: fas
       
   - name: Hobbies
