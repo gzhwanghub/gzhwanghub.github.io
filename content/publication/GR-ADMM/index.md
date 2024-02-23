@@ -37,7 +37,7 @@ links:
 # - name: Custom Link
 #   url: http://example.org
 url_pdf: ''
-url_code: 'https://github.com/gzhwanghub/ICSA-SHU'
+url_code: 'https://github.com/gzhwanghub/ICSA-SHU/tree/main/GR-ADMM'
 url_dataset: 'https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/'
 # url_poster: ''
 # url_project: ''
