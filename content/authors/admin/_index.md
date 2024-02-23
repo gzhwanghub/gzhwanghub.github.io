@@ -74,7 +74,7 @@ skills:
       - name: Middle-distance race
         description: ''
         percent: 75
-        icon: race
+        icon: person-running
         icon_pack: fas
       - name: Basketball
         description: ''
@@ -84,7 +84,7 @@ skills:
       - name: Reading
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: book-open-reader
         icon_pack: fas
 
 # Social/Academic Networking
