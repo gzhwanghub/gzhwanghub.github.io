@@ -5,9 +5,12 @@ authors:
 - Yongmei Lei  
 - Jinyang Xie  
 - Guozheng Wang 
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+# Author notes (optional)
+author_notes:
+  - ''
+  - ''
+  - ''
+  - ' '  
 date: "2021-01-14"
 doi: ""
 
