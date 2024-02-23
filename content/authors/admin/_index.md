@@ -55,7 +55,7 @@ skills:
         description: ''
         percent: 75
         icon: c
-        icon_pack: fas
+        icon_pack: fab
       - name: Python
         description: ''
         percent: 70
@@ -65,7 +65,7 @@ skills:
         description: ''
         percent: 60
         icon: ubuntu
-        icon_pack: fas
+        icon_pack: fab
       
   - name: Hobbies
     color: '#eeac02'
