@@ -51,36 +51,37 @@ education:
 skills:
   - name: Technical
     items:
+      - name: C++
+        description: ''
+        percent: 75
+        icon: database
+        icon_pack: fas
       - name: Python
         description: ''
-        percent: 80
+        percent: 70
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 60
         icon: chart-line
         icon_pack: fas
-      - name: C++
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
+      
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Middle-distance race
         description: ''
-        percent: 60
+        percent: 75
         icon: race
         icon_pack: fas
       - name: Basketball
         description: ''
-        percent: 100
+        percent: 75
         icon: basketball
         icon_pack: fas
-      - name: Photography
+      - name: Reading
         description: ''
         percent: 80
         icon: camera-retro
