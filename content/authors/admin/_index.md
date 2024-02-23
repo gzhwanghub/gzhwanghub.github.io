@@ -54,7 +54,7 @@ skills:
       - name: C++
         description: ''
         percent: 75
-        icon: database
+        icon: c
         icon_pack: fas
       - name: Python
         description: ''
@@ -64,7 +64,7 @@ skills:
       - name: Linux
         description: ''
         percent: 60
-        icon: linux
+        icon: ubuntu
         icon_pack: fas
       
   - name: Hobbies
